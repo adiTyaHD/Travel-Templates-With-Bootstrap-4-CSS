@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800|Playfair+Display:400,400i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+    <link rel="icon" href="/assets/img/header-background.jpg" type="image/gif" sizes="16x16">
+
+    <link rel="stylesheet" href="/scripts/dist/xzoom.css">
+    <link rel="stylesheet" href="/scripts/combined/css/gijgo.css">
+    <link rel="stylesheet" type="text/css" href="/style/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/style/scss/main.css">
+    <title>Nomands : Travel </title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white pb-5">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto"><a class="navbar-brand" href="#"><img
+                        src="/assets/logo.png" alt=""></a></div>
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+                <li><span class="text-muted text-light">| &nbsp;
+                        Beyond the Explore of the World </span></li>
+            </ul>
+            </navbar>
+        </nav>
+    </div>
+    <section>
+
+    </section>
+    <main>
+        <div class="section-success d-flex align-items-center">
+            <div class="col text-center">
+                <img src="/assets/img/ic_mail.png" width="20%" class="mb-3">
+                <h1>Yay! Congratulations </h1>
+                <h5 class="mb-3"> Your payment has been prosessing</h5>
+                <p class="mt-2">We've sent you email for trip instruction
+                    <br>
+                    Please pay attention and read as well &nbsp;<i class="fas fa-smile-wink"></i>
+                </p>
+                <a href="index.html" class="btn btn-back-home mt-3 px-5"><i class="fas fa-home">&nbsp; Back to
+                        Home</a></i>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+<script src="/scripts/combined/js/gijgo.js"></script>
+<script src="/scripts/retina.min.js"></script>
+<script src="/scripts/dist/xzoom.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.xzoom, .xzoom-gallery').xzoom({
+            zoomWidth: 500,
+            title: false,
+            tint: '#333',
+            Xoffset: 15
+        });
+        $('.datepicker').datepicker({
+            uiLibrary: 'bootstrap4',
+            icons: {
+                rightIcon: '<img src="/assets/img/ic_doe.png" />'
+            }
+
+        });
+    });
+</script>
+
+
+</html>

@@ -1,0 +1,588 @@
+.body {
+  background-color: #e4e6eb;
+  font-family: 'Assistant', sans-serif !important;
+  color: #071c4d;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  margin-left: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url(/assets/img/header-background.jpg);
+  background-size: cover;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 2px 0px 4px #000000;
+}
+
+header p {
+  font-size: 22px;
+  text-shadow: 2px 0px 4px #000000;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #FFF;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  margin-bottom: -230px;
+  background-color: #051334;
+  margin-top: -50px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #2c2c54;
+  color: #FFF;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .country {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .location {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #FF9E53;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #ffb142;
+  color: #2C3A47;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.section-network {
+  background-color: #FFF;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-network h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: #071c4d;
+  font-size: 40px;
+  text-shadow: 1px 0px 1px #000000;
+}
+
+.section-network p {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+.section-network img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  font-family: 'Playfair', serif;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #F7F9FF), color-stop(9%, #273c75));
+  background: linear-gradient(#F7F9FF 100%, #273c75 9%);
+  padding-top: 50px;
+  min-height: 506px;
+  color: #071c4d;
+}
+
+.section-testimonial-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 1px 0px 1px #000000;
+}
+
+.section-testimonial-heading p {
+  font-family: "Playfair Display", serif;
+  font-size: 14pt;
+  text-shadow: 1px 0px 1px #000000;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 285px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-weight: 300;
+  font-size: 21px;
+  -webkit-columns: #6e6e6e;
+          columns: #6e6e6e;
+  min-height: 160px;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.btn-get-started {
+  background-color: #FF9E53;
+  color: #ffffff;
+}
+
+.btn-get-started:hover {
+  background-color: #ffb142;
+  color: #2C3A47;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.btn-need-help {
+  background-color: #4cd137;
+  color: #ffffff;
+}
+
+.btn-need-help:hover {
+  background-color: #fbc531;
+  color: #2C3A47;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071c4d;
+  font-weight: 12.5pt;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #071c4d;
+  font-weight: bold !important;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #ffffff;
+  max-width: auto;
+}
+
+.btn-login:hover {
+  background-color: #1e3799;
+  color: #ffffff;
+}
+
+.section-footer a {
+  color: #071c4d;
+  font-family: "Playfair Display", serif;
+}
+
+.section-footer h5 {
+  font-weight: bold;
+}
+
+.section-footer .Copyright {
+  color: #051334;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 1px 0px 0px #000000;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background-color: #E4E6EB;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background: transparent;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+  font-family: 'Assistant', serif;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+  color: #051334;
+}
+
+.section-details-content .card-details h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #071c4d;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-details-content .card-details .btn-add-now {
+  background-color: #051334;
+  color: #FFF;
+  border-radius: 0;
+}
+
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #1e3799;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.section-details-content .card-details .gj-datepicker .datepicker {
+  border-right: 0px;
+}
+
+.section-details-content .card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0px;
+}
+
+.section-details-content .features p {
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+.section-details-content .features .description {
+  margin-left: 11px;
+}
+
+.section-details-content .features .description .description-item {
+  overflow: hidden;
+  float: left;
+  margin-left: 10px;
+}
+
+.section-details-content .features .features-image {
+  float: left;
+  height: 45px;
+  font-weight: 45px;
+}
+
+.trip-information tr {
+  color: #071c4d;
+}
+
+.trip-information tr td {
+  text-align: justify;
+  color: #071c4d;
+  font-size: 12pt;
+}
+
+.members .member-images {
+  width: 50px;
+  height: 50px;
+}
+
+.gallery .xzoom-container {
+  display: block;
+}
+
+.gallery .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.gallery .xactive {
+  border: 5px solid #1ABC9C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.card-details-join-now {
+  padding: 30px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom: 0;
+}
+
+.card-details-join-now h2 {
+  font-size: 18pt;
+}
+
+.card-details-join-now .payment-instruction {
+  font-weight: 300;
+  color: #b1b1b1;
+  font-size: 14pt;
+}
+
+.card-details-join-now h1 {
+  font-size: 26px;
+  font-family: 'Assistant', serif;
+}
+
+.card-details-join-now h2 {
+  font-size: 20px;
+  color: #051334;
+}
+
+.card-details-join-now h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #071c4d;
+}
+
+.card-details-join-now p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.card-details-join-now .text-orange {
+  color: #feca57;
+  font-weight: bold;
+}
+
+.card-details-join-now .text-blue {
+  color: #1e3799;
+  font-weight: bold;
+}
+
+.card-details-checkout {
+  padding: 30px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom: 0;
+}
+
+.card-details-checkout h2 {
+  font-size: 18pt;
+}
+
+.card-details-checkout .payment-instruction {
+  font-weight: 300;
+  color: #b1b1b1;
+  font-size: 14pt;
+}
+
+.card-details-checkout h1 {
+  font-size: 26px;
+  font-family: 'Assistant', serif;
+}
+
+.card-details-checkout h2 {
+  font-size: 20px;
+  color: #051334;
+}
+
+.card-details-checkout h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #071c4d;
+}
+
+.card-details-checkout p {
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.card-details-checkout .text-orange {
+  color: #feca57;
+  font-weight: bold;
+}
+
+.card-details-checkout .text-blue {
+  color: #1e3799;
+  font-weight: bold;
+}
+
+.card-details-checkout .payment-instruction {
+  font-weight: 300;
+  color: #b1b1b1;
+  font-size: 14px;
+}
+
+.card-details-checkout .bank .bank-item h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0px;
+}
+
+.card-details-checkout .bank .bank-item p {
+  margin-bottom: 0px;
+}
+
+.card-details-checkout .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.card-details-checkout .bank .bank-item .description p {
+  font-family: 'Assistant', serif;
+  font-weight: normal;
+  color: #071c4d;
+  font-size: 10pt;
+}
+
+.card-details-checkout .bank .bank-image {
+  width: 65px;
+  height: 65px;
+  float: right;
+  -webkit-filter: drop-shadow(0px 5px 3.8px #222);
+  filter: drop-shadow(0px 5px 3.8px #222);
+}
+
+.join-container {
+  margin-top: -16px;
+}
+
+.join-container a {
+  font-size: 12pt;
+}
+
+.join-container .btn-no-booking {
+  color: #f9ca24;
+  font-size: 12pt;
+}
+
+.join-container .btn-no-booking:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #57606f;
+}
+
+.btn-join-now {
+  background-color: #FF9E53;
+  color: #FFF;
+  border-radius: 0;
+}
+
+.btn-join-now:hover {
+  background-color: #ffb142;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.btn-back-home {
+  background-color: #218c74;
+  color: #FFF;
+  border-radius: 12;
+}
+
+.btn-back-home:hover {
+  background-color: #2ed573;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 12;
+}
+
+.section-success {
+  height: 70vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071c4d;
+}
+
+.section-success h5 {
+  font-size: 14px;
+  color: #071c4d;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+/*# sourceMappingURL=main.css.map */
